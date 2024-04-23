@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* Reset de margens e preenchimentos para garantir consistência entre navegadores */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #000000, #11118f57); /* Gradiente de fundo */
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    color: #392d7c; /* Cor do cabeçalho h1 */
+    margin: 20px 0;
+}
+
+h2 {
+    color: #ada491; /* Cor do cabeçalho h2 */
+    margin: 15px 0;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Efeito de transição suave para links */
+a {
+    color: #03A9F4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #FF4081;
+}
+
+/* Animação de rotação para elementos com a classe 'rotate' */
+.rotate {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.rotate:hover {
+    transform: rotate(360deg);
+}
+
+/* Animação de fade para elementos com a classe 'fade' */
+.fade {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.fade:hover {
+    opacity: 0.5;
+}
